@@ -1,0 +1,6 @@
+The data for forest cover type determination was downloaded from the UCI database. The data was comprised of cartographic variabbles, derived from data originally obtained from US Geological Survey (USGS) and USFS data. The actual cover type for each observation was determined from US Forest Service (USFS) Region 2 Resource Information System (RIS) data.
+
+Initially, there were 581012 rows and 55 columns. The columns represented the the following attributes: Elevation (meters), Aspect (azimuth), Slope (degrees), Horizontal_Distance_To_Hydrology (meters), Vertical_Distance_To_Hydrology (meters), Horizontal_Distance_To_Roadways (meters), Hillshade_9am (0 to 255 index), Hillshade_Noon (0 to 255 index), Hillshade_3pm (0 to 255 index), Horizontal_Distance_To_Fire_Points (meters), Wilderness_Area (4 binary columns), Soil_Type (40 binary columns), Cover_Type (7 types).
+
+The task is to build a predictive machine learning model that can reliably predict the forest cover type from the provided cartographic variables. For optimizing the classifier model, the attribute 'Cover_Type', represents the muticlass forest cover type classification. The summary of the observations, resulting from the data analyses, is provided at the bottom of the notebook.
+
